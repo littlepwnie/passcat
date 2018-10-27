@@ -108,6 +108,9 @@ int main(int argc, char *argv[])
 	std::cout << "-------------------------------------------" << std::endl << std::endl;
 
 	libpasscat::finalize();
-
+	
+	std::cout << "Press any key to exit...";
+	getchar();
+	
 	return 0;
 }
